@@ -1,0 +1,77 @@
+body{
+	background: #e8e9e6;
+	background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+   
+}
+header{
+	display: flex;
+    justify-content: space-between;        
+    height: 140px;
+    background-image: linear-gradient(to right, white 35% , #cc0000 75%);
+    margin-top: -10px;
+}
+
+.body_section{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+
+.body_section .box{	
+	height: 700px;
+    border-radius: 0px;
+    flex-basis: 1000px;
+    margin-bottom: 0.5px; 
+}
+
+.box.login_form{
+	background-color:#ecf0f1;
+    flex-basis: 100px;       
+    flex-grow: 1;
+    flex-shrink: 3;    
+    color: #111111;
+    margin-left: 300px;
+    height: 500px;
+    border-right: 2px solid black;
+    padding-left: 10px;
+    padding-top: 100px;
+}
+
+.box.login_form input {
+	width: 200px;
+	height: 20px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 2px solid black;
+    background-color: unset;
+    
+}
+
+.box.login_form #loginbtn{	
+	height: 35px;
+	border-radius: 5px;
+	box-shadow: 5px 5px #888888;
+}
+
+.box.login_form #loginbtn:hover{
+	color: #ffffff;
+	opacity: 0.3;
+	background-color: #4682B4;
+}
+
+/*.box.body_logo{
+	height: 600px;
+	background-image: url("images/ugali.jpg");
+	background-size: cover;
+
+}*/
